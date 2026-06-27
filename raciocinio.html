@@ -1,44 +1,42 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Raciocínio Matemático</title>
+    <title>Raciocínio Matemático</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font Awesome -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-rel="stylesheet">
+    <!-- CSS -->
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- ================= MENU ================= -->
+<!-- MENU -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
 
 <div class="container">
 
 <a class="navbar-brand fw-bold" href="index.html">
 
-<i class="fa-solid fa-brain"></i>
+<i class="fa-solid fa-book-open"></i>
 
-MathHistory Lab
+História da Matemática
 
 </a>
 
@@ -60,101 +58,21 @@ id="menu">
 
 <ul class="navbar-nav ms-auto">
 
-<li class="nav-item">
+<li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
 
-<a class="nav-link"
+<li class="nav-item"><a class="nav-link" href="apresentacao.html">Apresentação</a></li>
 
-href="index.html">
+<li class="nav-item"><a class="nav-link active" href="raciocinio.html">Raciocínio Matemático</a></li>
 
-Início
+<li class="nav-item"><a class="nav-link" href="historia.html">História da Matemática</a></li>
 
-</a>
+<li class="nav-item"><a class="nav-link" href="aula-tres-fases.html">Aula em 3 Fases</a></li>
 
-</li>
+<li class="nav-item"><a class="nav-link" href="tarefas.html">Tarefas</a></li>
 
-<li class="nav-item">
+<li class="nav-item"><a class="nav-link" href="saiba-mais.html">Saiba Mais</a></li>
 
-<a class="nav-link"
-
-href="apresentacao.html">
-
-Apresentação
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link active"
-
-href="raciocinio.html">
-
-Raciocínio Matemático
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link"
-
-href="historia.html">
-
-História da Matemática
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link"
-
-href="tres-fases.html">
-
-Aula em 3 fases
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link"
-
-href="tarefas.html">
-
-Tarefas
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link"
-
-href="saiba-mais.html">
-
-Saiba Mais
-
-</a>
-
-</li>
-
-<li class="nav-item">
-
-<a class="nav-link"
-
-href="referencias.html">
-
-Referências
-
-</a>
-
-</li>
+<li class="nav-item"><a class="nav-link" href="referencias.html">Referências</a></li>
 
 </ul>
 
@@ -164,65 +82,33 @@ Referências
 
 </nav>
 
-<!-- ================= HERO ================= -->
+<!-- CABEÇALHO -->
 
-<header class="hero-rm">
+<header class="bg-light py-5">
 
-<div class="overlay"></div>
+<div class="container text-center">
 
-<div class="container">
-
-<div class="row align-items-center vh-100">
-
-<div class="col-lg-7">
-
-<h1 class="display-3 fw-bold text-white">
+<h1>
 
 Raciocínio Matemático
 
 </h1>
 
-<p class="lead text-white">
+<p class="lead">
 
-Desenvolver o raciocínio matemático significa possibilitar que o estudante
-formule conjecturas, estabeleça relações, generalize padrões e justifique
-suas conclusões por meio de argumentos matemáticos.
+Compreender, argumentar, investigar e construir conhecimento matemático.
 
 </p>
-
-<a href="#conceito"
-
-class="btn btn-warning btn-lg mt-3">
-
-Começar
-
-</a>
-
-</div>
-
-<div class="col-lg-5 text-center">
-
-<i class="fa-solid fa-brain brain-icon"></i>
-
-</div>
-
-</div>
 
 </div>
 
 </header>
 
-<!-- ================= CONCEITO ================= -->
+<!-- O QUE É -->
 
-<section id="conceito"
+<section class="container my-5">
 
-class="container py-5">
-
-<div class="row">
-
-<div class="col-lg-12">
-
-<h2 class="section-title">
+<h2>
 
 O que é Raciocínio Matemático?
 
@@ -232,477 +118,105 @@ O que é Raciocínio Matemático?
 
 <p align="justify">
 
-O Raciocínio Matemático consiste na capacidade de produzir novas
-informações a partir de conhecimentos já estabelecidos, utilizando
-inferências fundamentadas. Trata-se de um processo essencial para que
-o estudante deixe de apenas executar procedimentos e passe a compreender,
-explicar, relacionar e construir ideias matemáticas.
+O raciocínio matemático pode ser compreendido como a capacidade de produzir novas informações a partir de conhecimentos já existentes, estabelecendo relações, identificando padrões, formulando conjecturas e construindo justificativas matemáticas. Dessa forma, o estudante deixa de apenas aplicar procedimentos para assumir um papel ativo na construção do conhecimento.
 
 </p>
 
 <p align="justify">
 
-Na perspectiva de Ponte, Brocardo e Oliveira (2005), raciocinar
-matematicamente envolve levantar hipóteses, identificar regularidades,
-formular generalizações e construir justificativas para as conclusões
-obtidas.
+Nas aulas de Matemática, desenvolver o raciocínio matemático significa proporcionar situações em que os estudantes possam explorar diferentes estratégias, discutir ideias, comparar soluções e justificar seus argumentos.
 
 </p>
-
-<p align="justify">
-
-Mais recentemente, Ponte, Quaresma e Mata-Pereira (2020) destacam que
-raciocinar corresponde ao processo de obter novas conclusões
-fundamentadas a partir de informações conhecidas, mobilizando diferentes
-tipos e processos de raciocínio durante a resolução de tarefas.
-
-</p>
-
-</div>
-
-</div>
 
 </section>
 
-<!-- ================= CARDS ================= -->
-
-<section class="container mb-5">
-
-<div class="row g-4">
-
-<div class="col-md-4">
-
-<div class="card info-card shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="fa-solid fa-lightbulb fa-4x text-warning"></i>
-
-<h3 class="mt-4">
-
-Conjecturar
-
-</h3>
-
-<p>
-
-Levantar hipóteses para explicar uma situação
-ou iniciar uma estratégia de resolução.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card info-card shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="fa-solid fa-chart-line fa-4x text-success"></i>
-
-<h3 class="mt-4">
-
-Generalizar
-
-</h3>
-
-<p>
-
-Reconhecer padrões e ampliar resultados para
-novas situações matemáticas.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card info-card shadow h-100">
-
-<div class="card-body text-center">
-
-<i class="fa-solid fa-scale-balanced fa-4x text-primary"></i>
-
-<h3 class="mt-4">
-
-Justificar
-
-</h3>
-
-<p>
-
-Explicar por que uma estratégia ou conclusão
-é matematicamente válida.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= TRANSIÇÃO ================= -->
+<!-- TIPOS -->
 
 <section class="bg-light py-5">
 
-<div class="container text-center">
+<div class="container">
 
-<h2>
+<h2 class="text-center mb-5">
 
 Tipos de Raciocínio Matemático
 
 </h2>
 
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card shadow-sm h-100">
+
+<div class="card-body">
+
+<h4 class="text-primary">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+Abdutivo
+
+</h4>
+
 <p>
 
-Os três tipos de raciocínio atuam de forma complementar durante a
-resolução de tarefas exploratórias.
+Relaciona-se à formulação de hipóteses e conjecturas diante de uma situação ainda desconhecida.
 
 </p>
 
 </div>
 
-</section>
-<!-- =======================================================
-     TIPOS DE RACIOCÍNIO MATEMÁTICO
-======================================================== -->
+</div>
 
-<section class="container py-5">
+</div>
 
-    <div class="row">
+<div class="col-md-4">
 
-        <div class="col-lg-12 text-center mb-5">
+<div class="card shadow-sm h-100">
 
-            <h2 class="section-title">
+<div class="card-body">
 
-                Tipos de Raciocínio Matemático
+<h4 class="text-success">
 
-            </h2>
+<i class="fa-solid fa-chart-line"></i>
 
-            <p class="lead">
+Indutivo
 
-                Durante a resolução de tarefas exploratórias, os estudantes
-                mobilizam diferentes tipos de raciocínio que se complementam
-                na construção do conhecimento matemático.
+</h4>
 
-            </p>
+<p>
 
-        </div>
+Ocorre quando o estudante identifica padrões, regularidades e elabora generalizações.
 
-    </div>
+</p>
 
-    <div class="row g-4">
+</div>
 
-        <!-- ABDUTIVO -->
+</div>
 
-        <div class="col-lg-4">
+</div>
 
-            <div class="card shadow-lg border-0 h-100 tipo-card">
+<div class="col-md-4">
 
-                <div class="card-body">
+<div class="card shadow-sm h-100">
 
-                    <div class="text-center">
+<div class="card-body">
 
-                        <i class="fa-solid fa-lightbulb fa-4x text-warning mb-4"></i>
+<h4 class="text-danger">
 
-                        <h3>
+<i class="fa-solid fa-scale-balanced"></i>
 
-                            Raciocínio Abdutivo
+Dedutivo
 
-                        </h3>
+</h4>
 
-                    </div>
+<p>
 
-                    <hr>
+Permite justificar matematicamente uma conclusão utilizando propriedades, definições e argumentos lógicos.
 
-                    <p align="justify">
+</p>
 
-                        O raciocínio abdutivo está relacionado à construção
-                        de hipóteses e conjecturas. Diante de uma situação
-                        desconhecida, o estudante procura uma possível
-                        explicação ou estratégia de resolução.
-
-                    </p>
-
-                    <p>
-
-                        <strong>Mobiliza principalmente:</strong>
-
-                    </p>
-
-                    <ul>
-
-                        <li>Conjecturas</li>
-
-                        <li>Hipóteses</li>
-
-                        <li>Estratégias iniciais</li>
-
-                        <li>Tentativas de resolução</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- INDUTIVO -->
-
-        <div class="col-lg-4">
-
-            <div class="card shadow-lg border-0 h-100 tipo-card">
-
-                <div class="card-body">
-
-                    <div class="text-center">
-
-                        <i class="fa-solid fa-chart-line fa-4x text-success mb-4"></i>
-
-                        <h3>
-
-                            Raciocínio Indutivo
-
-                        </h3>
-
-                    </div>
-
-                    <hr>
-
-                    <p align="justify">
-
-                        O raciocínio indutivo ocorre quando o estudante
-                        observa regularidades em diferentes casos,
-                        identifica padrões e amplia essas observações para
-                        formular generalizações.
-
-                    </p>
-
-                    <p>
-
-                        <strong>Mobiliza principalmente:</strong>
-
-                    </p>
-
-                    <ul>
-
-                        <li>Reconhecimento de padrões</li>
-
-                        <li>Generalizações</li>
-
-                        <li>Regularidades</li>
-
-                        <li>Ampliação de resultados</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- DEDUTIVO -->
-
-        <div class="col-lg-4">
-
-            <div class="card shadow-lg border-0 h-100 tipo-card">
-
-                <div class="card-body">
-
-                    <div class="text-center">
-
-                        <i class="fa-solid fa-scale-balanced fa-4x text-primary mb-4"></i>
-
-                        <h3>
-
-                            Raciocínio Dedutivo
-
-                        </h3>
-
-                    </div>
-
-                    <hr>
-
-                    <p align="justify">
-
-                        O raciocínio dedutivo permite justificar
-                        matematicamente uma conclusão utilizando
-                        propriedades, definições, relações e argumentos
-                        logicamente consistentes.
-
-                    </p>
-
-                    <p>
-
-                        <strong>Mobiliza principalmente:</strong>
-
-                    </p>
-
-                    <ul>
-
-                        <li>Argumentação</li>
-
-                        <li>Justificação</li>
-
-                        <li>Coerência lógica</li>
-
-                        <li>Validação de estratégias</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- =======================================================
-COMPARAÇÃO
-======================================================== -->
-
-<section class="bg-light py-5">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-lg-12">
-
-<h2 class="text-center mb-5">
-
-Comparando os três tipos
-
-</h2>
-
-<div class="table-responsive">
-
-<table class="table table-hover table-bordered align-middle">
-
-<thead class="table-dark">
-
-<tr>
-
-<th>Tipo</th>
-
-<th>Objetivo</th>
-
-<th>Pergunta do estudante</th>
-
-<th>Resultado esperado</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-💡 Abdutivo
-
-</td>
-
-<td>
-
-Levantar hipóteses
-
-</td>
-
-<td>
-
-"Será que funciona assim?"
-
-</td>
-
-<td>
-
-Conjecturas
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-📈 Indutivo
-
-</td>
-
-<td>
-
-Encontrar padrões
-
-</td>
-
-<td>
-
-"Isso acontece sempre?"
-
-</td>
-
-<td>
-
-Generalizações
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-✔ Dedutivo
-
-</td>
-
-<td>
-
-Justificar
-
-</td>
-
-<td>
-
-"Por que isso é verdadeiro?"
-
-</td>
-
-<td>
-
-Argumentação matemática
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+</div>
 
 </div>
 
@@ -714,458 +228,37 @@ Argumentação matemática
 
 </section>
 
-<!-- =======================================================
-EXEMPLO DA PESQUISA
-======================================================== -->
+<!-- PROCESSOS -->
 
-<section class="container py-5">
-
-<div class="row">
-
-<div class="col-lg-12">
+<section class="container my-5">
 
 <h2>
 
-Exemplo de aplicação
+Processos do Raciocínio Matemático
 
 </h2>
 
 <hr>
 
-<p align="justify">
-
-Na tarefa sobre a <strong>multiplicação egípcia</strong>, os estudantes
-precisaram compreender como os antigos egípcios realizavam multiplicações
-por meio de dobramentos sucessivos.
-
-</p>
-
-<p align="justify">
-
-Inicialmente, formularam hipóteses sobre o funcionamento da tabela
-(abdução). Em seguida, observaram regularidades nos dobramentos e
-perceberam padrões que permitiram ampliar a estratégia para outros valores
-(indução). Finalmente, justificaram suas escolhas utilizando relações
-entre o número de sacos e a quantidade de sementes (dedução).
-
-</p>
-
-<div class="alert alert-warning mt-4">
-
-<h5>
-
-<i class="fa-solid fa-circle-info"></i>
-
-Importante
-
-</h5>
-
-<p class="mb-0">
-
-Durante uma única tarefa é comum que os três tipos de raciocínio
-apareçam de forma integrada. O estudante formula hipóteses,
-identifica padrões e justifica suas conclusões ao longo da atividade.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =======================================================
-TRANSIÇÃO
-======================================================== -->
-
-<section class="bg-primary text-white py-5">
-
-<div class="container text-center">
-
-<h2>
-
-Os tipos de raciocínio são mobilizados por processos específicos.
-
-</h2>
-
-<p class="lead">
-
-Na próxima seção serão apresentados os processos de
-<strong>conjecturar</strong>,
-<strong>generalizar</strong> e
-<strong>justificar</strong>.
-
-</p>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-PROCESSOS DO RACIOCÍNIO MATEMÁTICO
-====================================================== -->
-
-<section class="container py-5" id="processos">
-
-    <div class="row">
-
-        <div class="col-lg-12 text-center mb-5">
-
-            <h2 class="section-title">
-
-                Processos do Raciocínio Matemático
-
-            </h2>
-
-            <p class="lead">
-
-                Os processos do raciocínio matemático representam as ações
-                intelectuais mobilizadas pelos estudantes durante a resolução
-                de tarefas exploratórias.
-
-            </p>
-
-        </div>
-
-    </div>
-
-    <div class="row g-4">
-
-        <!-- CONJECTURAR -->
-
-        <div class="col-lg-4">
-
-            <div class="card shadow-lg border-0 h-100">
-
-                <div class="card-header bg-warning text-dark text-center">
-
-                    <h3>
-
-                        <i class="fa-solid fa-lightbulb"></i>
-
-                        Conjecturar
-
-                    </h3>
-
-                </div>
-
-                <div class="card-body">
-
-                    <p align="justify">
-
-                        Conjecturar consiste em formular hipóteses,
-                        levantar possibilidades e propor estratégias
-                        para resolver um problema antes de conhecer
-                        sua solução.
-
-                    </p>
-
-                    <h6>
-
-                        Pode ocorrer quando o estudante:
-
-                    </h6>
-
-                    <ul>
-
-                        <li>faz previsões;</li>
-
-                        <li>propõe uma estratégia;</li>
-
-                        <li>levanta hipóteses;</li>
-
-                        <li>imagina uma possível resposta.</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- GENERALIZAR -->
-
-        <div class="col-lg-4">
-
-            <div class="card shadow-lg border-0 h-100">
-
-                <div class="card-header bg-success text-white text-center">
-
-                    <h3>
-
-                        <i class="fa-solid fa-chart-line"></i>
-
-                        Generalizar
-
-                    </h3>
-
-                </div>
-
-                <div class="card-body">
-
-                    <p align="justify">
-
-                        Generalizar consiste em reconhecer padrões
-                        e ampliar resultados encontrados em casos
-                        particulares para situações mais gerais.
-
-                    </p>
-
-                    <h6>
-
-                        Pode ocorrer quando o estudante:
-
-                    </h6>
-
-                    <ul>
-
-                        <li>identifica regularidades;</li>
-
-                        <li>percebe padrões;</li>
-
-                        <li>amplia resultados;</li>
-
-                        <li>cria uma regra geral.</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- JUSTIFICAR -->
-
-        <div class="col-lg-4">
-
-            <div class="card shadow-lg border-0 h-100">
-
-                <div class="card-header bg-primary text-white text-center">
-
-                    <h3>
-
-                        <i class="fa-solid fa-scale-balanced"></i>
-
-                        Justificar
-
-                    </h3>
-
-                </div>
-
-                <div class="card-body">
-
-                    <p align="justify">
-
-                        Justificar corresponde à elaboração de argumentos
-                        matemáticos capazes de explicar por que uma
-                        estratégia ou conclusão é válida.
-
-                    </p>
-
-                    <h6>
-
-                        Pode ocorrer quando o estudante:
-
-                    </h6>
-
-                    <ul>
-
-                        <li>explica seu raciocínio;</li>
-
-                        <li>argumenta;</li>
-
-                        <li>utiliza propriedades;</li>
-
-                        <li>convence os colegas.</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- =====================================================
-QUADRO RESUMO
-====================================================== -->
-
-<section class="bg-light py-5">
-
-<div class="container">
-
-<h2 class="text-center mb-5">
-
-Resumo dos Processos
-
-</h2>
-
-<div class="table-responsive">
-
-<table class="table table-bordered table-hover align-middle">
-
-<thead class="table-primary">
-
-<tr>
-
-<th>Processo</th>
-
-<th>O que o estudante faz?</th>
-
-<th>Perguntas do professor</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-💡 Conjecturar
-
-</td>
-
-<td>
-
-Levanta hipóteses e propõe estratégias.
-
-</td>
-
-<td>
-
-Como você imagina que isso funciona?<br>
-
-Existe outra maneira?<br>
-
-O que você acha que acontecerá?
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-📈 Generalizar
-
-</td>
-
-<td>
-
-Identifica padrões e amplia resultados.
-
-</td>
-
-<td>
-
-Isso acontece sempre?<br>
-
-O que mudou?<br>
-
-Você consegue criar uma regra?
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-✔ Justificar
-
-</td>
-
-<td>
-
-Explica matematicamente sua resposta.
-
-</td>
-
-<td>
-
-Como você sabe?<br>
-
-Por que isso funciona?<br>
-
-Como convenceria um colega?
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-EXEMPLOS DA PESQUISA
-====================================================== -->
-
-<section class="container py-5">
-
 <div class="row">
 
-<div class="col-lg-12">
+<div class="col-md-4">
 
-<h2>
+<div class="card border-primary">
 
-Os processos na tarefa da Multiplicação Egípcia
+<div class="card-body">
 
-</h2>
-
-<hr>
-
-<div class="accordion" id="accordionRM">
-
-<div class="accordion-item">
-
-<h2 class="accordion-header">
-
-<button class="accordion-button"
-
-type="button"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#conjecturar">
+<h4>
 
 Conjecturar
 
-</button>
+</h4>
 
-</h2>
+<p>
 
-<div id="conjecturar"
+Levantar hipóteses e prever possíveis estratégias para resolver uma situação.
 
-class="accordion-collapse collapse show"
-
-data-bs-parent="#accordionRM">
-
-<div class="accordion-body">
-
-Durante os primeiros momentos da tarefa, os estudantes
-formularam hipóteses sobre como os egípcios poderiam
-descobrir a quantidade de sementes utilizando apenas
-dobramentos sucessivos.
+</p>
 
 </div>
 
@@ -1173,35 +266,23 @@ dobramentos sucessivos.
 
 </div>
 
-<div class="accordion-item">
+<div class="col-md-4">
 
-<h2 class="accordion-header">
+<div class="card border-success">
 
-<button class="accordion-button collapsed"
+<div class="card-body">
 
-type="button"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#generalizar">
+<h4>
 
 Generalizar
 
-</button>
+</h4>
 
-</h2>
+<p>
 
-<div id="generalizar"
+Reconhecer padrões e ampliar resultados para novas situações.
 
-class="accordion-collapse collapse"
-
-data-bs-parent="#accordionRM">
-
-<div class="accordion-body">
-
-Ao perceberem que os números dobravam sucessivamente,
-os estudantes reconheceram um padrão e passaram a utilizá-lo
-para resolver novas situações propostas.
+</p>
 
 </div>
 
@@ -1209,40 +290,23 @@ para resolver novas situações propostas.
 
 </div>
 
-<div class="accordion-item">
+<div class="col-md-4">
 
-<h2 class="accordion-header">
+<div class="card border-danger">
 
-<button class="accordion-button collapsed"
+<div class="card-body">
 
-type="button"
-
-data-bs-toggle="collapse"
-
-data-bs-target="#justificar">
+<h4>
 
 Justificar
 
-</button>
+</h4>
 
-</h2>
+<p>
 
-<div id="justificar"
+Explicar por que uma resposta é válida utilizando argumentos matemáticos.
 
-class="accordion-collapse collapse"
-
-data-bs-parent="#accordionRM">
-
-<div class="accordion-body">
-
-Os estudantes explicaram suas escolhas utilizando
-relações entre os valores da tabela, demonstrando
-coerência lógica para defender suas estratégias de
-resolução.
-
-</div>
-
-</div>
+</p>
 
 </div>
 
@@ -1254,81 +318,41 @@ resolução.
 
 </section>
 
-<!-- =====================================================
-OLHAR DO PROFESSOR
-====================================================== -->
+<!-- PROFESSOR -->
 
-<section class="py-5 bg-primary text-white">
+<section class="bg-light py-5">
 
 <div class="container">
 
-<h2 class="text-center mb-5">
+<h2>
 
-👩‍🏫 Olhar do Professor
+O papel do professor
 
 </h2>
 
-<div class="row">
+<hr>
 
-<div class="col-md-6">
+<p align="justify">
 
-<div class="card border-0 shadow">
+O professor desempenha um papel fundamental na promoção do raciocínio matemático ao propor tarefas desafiadoras, incentivar diferentes estratégias de resolução, valorizar as ideias apresentadas pelos estudantes e conduzir discussões que favoreçam a argumentação matemática.
 
-<div class="card-body">
+</p>
 
-<h4>
+<div class="alert alert-primary">
 
-Durante a aula observe se os estudantes:
+<strong>Sugestão:</strong>
 
-</h4>
-
-<ul>
-
-<li>levantam hipóteses;</li>
-
-<li>explicam suas ideias;</li>
-
-<li>escutam os colegas;</li>
-
-<li>mudam de estratégia;</li>
-
-<li>identificam padrões;</li>
-
-<li>constroem argumentos.</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="card border-0 shadow">
-
-<div class="card-body">
-
-<h4>
-
-Perguntas que favorecem o raciocínio
-
-</h4>
+Durante a aula, faça perguntas como:
 
 <ul>
 
 <li>Como você pensou?</li>
 
-<li>Existe outro caminho?</li>
+<li>Existe outra estratégia?</li>
 
-<li>Isso acontece sempre?</li>
+<li>Por que essa resposta está correta?</li>
 
-<li>Como você pode provar?</li>
-
-<li>Seu colega resolveu diferente?</li>
-
-<li>Qual estratégia parece mais eficiente?</li>
+<li>Você consegue convencer seus colegas?</li>
 
 </ul>
 
@@ -1336,157 +360,93 @@ Perguntas que favorecem o raciocínio
 
 </div>
 
-</div>
-
-</div>
-
-</div>
-
 </section>
 
-<!-- =====================================================
-TRANSIÇÃO
-====================================================== -->
+<!-- HISTÓRIA DA MATEMÁTICA -->
 
-<section class="container py-5 text-center">
+<section class="container my-5">
 
 <h2>
 
-O desenvolvimento do Raciocínio Matemático depende da forma
-como a aula é organizada.
+Relação com a História da Matemática
 
 </h2>
 
-<p class="lead">
+<hr>
 
-Na próxima página conheceremos a organização da
-<strong>Aula em Três Fases</strong> utilizada no Ensino Exploratório.
+<p align="justify">
+
+Neste Produto Educacional, o raciocínio matemático é desenvolvido por meio de tarefas inspiradas em episódios da História da Matemática. Ao investigar como diferentes povos resolveram problemas ao longo do tempo, os estudantes têm oportunidades de formular conjecturas, identificar regularidades, construir argumentos e compreender os conceitos matemáticos em contextos historicamente significativos.
 
 </p>
 
-<a href="tres-fases.html"
-
-class="btn btn-primary btn-lg mt-4">
-
-Conhecer a Aula em 3 Fases
-
-</a>
-
 </section>
 
-<!-- =====================================================
-FLUXOGRAMA
-====================================================== -->
+<!-- RESUMO -->
 
-<section class="py-5 bg-light">
+<section class="bg-light py-5">
 
 <div class="container">
 
-<h2 class="text-center mb-5">
+<h2 class="text-center mb-4">
 
-Como o Raciocínio Matemático se desenvolve?
+Resumo
 
 </h2>
 
-<div class="row text-center g-4">
+<div class="table-responsive">
 
-<div class="col-md">
+<table class="table table-bordered">
 
-<div class="card border-0 shadow h-100">
+<thead class="table-primary">
 
-<div class="card-body">
+<tr>
 
-<i class="fa-solid fa-landmark fa-3x text-warning mb-3"></i>
+<th>Tipo</th>
 
-<h5>História da Matemática</h5>
+<th>Processo predominante</th>
 
-<p>
-Situações históricas despertam a curiosidade e dão significado aos conceitos.
-</p>
+<th>Objetivo</th>
 
-</div>
+</tr>
 
-</div>
+</thead>
 
-</div>
+<tbody>
 
-<div class="col-md-auto d-flex align-items-center justify-content-center">
+<tr>
 
-<i class="fa-solid fa-arrow-right fa-2x text-secondary"></i>
+<td>Abdutivo</td>
 
-</div>
+<td>Conjecturar</td>
 
-<div class="col-md">
+<td>Levantar hipóteses</td>
 
-<div class="card border-0 shadow h-100">
+</tr>
 
-<div class="card-body">
+<tr>
 
-<i class="fa-solid fa-book-open fa-3x text-success mb-3"></i>
+<td>Indutivo</td>
 
-<h5>Tarefas Exploratórias</h5>
+<td>Generalizar</td>
 
-<p>
-Os estudantes investigam diferentes estratégias para resolver um problema.
-</p>
+<td>Encontrar padrões</td>
 
-</div>
+</tr>
 
-</div>
+<tr>
 
-</div>
+<td>Dedutivo</td>
 
-<div class="col-md-auto d-flex align-items-center justify-content-center">
+<td>Justificar</td>
 
-<i class="fa-solid fa-arrow-right fa-2x text-secondary"></i>
+<td>Validar argumentos</td>
 
-</div>
+</tr>
 
-<div class="col-md">
+</tbody>
 
-<div class="card border-0 shadow h-100">
-
-<div class="card-body">
-
-<i class="fa-solid fa-brain fa-3x text-primary mb-3"></i>
-
-<h5>Raciocínio Matemático</h5>
-
-<p>
-Conjecturar, generalizar e justificar tornam-se ações presentes durante a aprendizagem.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-auto d-flex align-items-center justify-content-center">
-
-<i class="fa-solid fa-arrow-right fa-2x text-secondary"></i>
-
-</div>
-
-<div class="col-md">
-
-<div class="card border-0 shadow h-100">
-
-<div class="card-body">
-
-<i class="fa-solid fa-graduation-cap fa-3x text-danger mb-3"></i>
-
-<h5>Aprendizagem</h5>
-
-<p>
-O estudante desenvolve autonomia, argumentação e compreensão matemática.
-</p>
-
-</div>
-
-</div>
-
-</div>
+</table>
 
 </div>
 
@@ -1494,218 +454,9 @@ O estudante desenvolve autonomia, argumentação e compreensão matemática.
 
 </section>
 
-<!-- =====================================================
-QUIZ
-====================================================== -->
+<!-- BOTÃO -->
 
-<section class="container py-5">
-
-<div class="row justify-content-center">
-
-<div class="col-lg-9">
-
-<h2 class="text-center mb-5">
-
-Teste seus conhecimentos
-
-</h2>
-
-<div class="card shadow-lg">
-
-<div class="card-body">
-
-<form id="quizRM">
-
-<div class="mb-4">
-
-<h5>
-
-1. Qual processo está relacionado à formulação de hipóteses?
-
-</h5>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q1"
-value="a">
-
-<label class="form-check-label">
-
-Generalizar
-
-</label>
-
-</div>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q1"
-value="b">
-
-<label class="form-check-label">
-
-Conjecturar
-
-</label>
-
-</div>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q1"
-value="c">
-
-<label class="form-check-label">
-
-Justificar
-
-</label>
-
-</div>
-
-</div>
-
-<div class="mb-4">
-
-<h5>
-
-2. Qual tipo de raciocínio está mais relacionado à construção de argumentos?
-
-</h5>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q2"
-value="a">
-
-<label class="form-check-label">
-
-Dedutivo
-
-</label>
-
-</div>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q2"
-value="b">
-
-<label class="form-check-label">
-
-Indutivo
-
-</label>
-
-</div>
-
-<div class="form-check">
-
-<input class="form-check-input"
-type="radio"
-name="q2"
-value="c">
-
-<label class="form-check-label">
-
-Abdutivo
-
-</label>
-
-</div>
-
-</div>
-
-<div class="text-center">
-
-<button
-type="button"
-class="btn btn-success btn-lg"
-onclick="corrigirQuiz()">
-
-Corrigir Quiz
-
-</button>
-
-</div>
-
-</form>
-
-<div
-id="resultadoQuiz"
-class="alert alert-info mt-4 d-none">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-MENSAGEM FINAL
-====================================================== -->
-
-<section class="bg-primary text-white py-5">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-8">
-
-<h2>
-
-O Raciocínio Matemático não se ensina por repetição.
-
-</h2>
-
-<p class="lead">
-
-Ele se desenvolve quando os estudantes têm oportunidades
-de investigar, discutir, argumentar, levantar hipóteses,
-identificar padrões e justificar suas conclusões.
-
-</p>
-
-</div>
-
-<div class="col-lg-4 text-center">
-
-<i class="fa-solid fa-brain fa-7x"></i>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-PRÓXIMA ETAPA
-====================================================== -->
-
-<section class="container py-5">
-
-<div class="row">
-
-<div class="col-lg-12 text-center">
+<section class="container text-center py-5">
 
 <h2>
 
@@ -1713,161 +464,47 @@ Próximo módulo
 
 </h2>
 
-<p class="lead">
+<p>
 
-Agora conheceremos como organizar uma aula baseada
-no Ensino Exploratório por meio da Aula em Três Fases.
+Conheça como a História da Matemática pode contribuir para o desenvolvimento do raciocínio matemático.
 
 </p>
 
-<a
-href="tres-fases.html"
+<a href="historia.html"
+
 class="btn btn-primary btn-lg">
 
-Acessar Aula em 3 Fases
+Ir para História da Matemática
 
 </a>
 
-</div>
-
-</div>
-
 </section>
 
-<!-- =====================================================
-RODAPÉ
-====================================================== -->
+<!-- RODAPÉ -->
 
-<footer class="bg-dark text-white">
+<footer class="bg-primary text-white text-center py-4">
 
-<div class="container py-4">
+<p class="mb-1">
 
-<div class="row">
-
-<div class="col-lg-6">
-
-<h4>
-
-MathHistory Lab
-
-</h4>
-
-<p>
-
-Produto Educacional desenvolvido para auxiliar
-professores dos Anos Iniciais na utilização da
-História da Matemática como tendência metodológica
-para o desenvolvimento do Raciocínio Matemático.
+Produto Educacional
 
 </p>
 
-</div>
+<p class="mb-1">
 
-<div class="col-lg-3">
+História da Matemática e Desenvolvimento do Raciocínio Matemático
 
-<h5>
+</p>
 
-Navegação
-
-</h5>
-
-<ul class="list-unstyled">
-
-<li><a href="index.html" class="text-white text-decoration-none">Início</a></li>
-
-<li><a href="historia.html" class="text-white text-decoration-none">História</a></li>
-
-<li><a href="tarefas.html" class="text-white text-decoration-none">Tarefas</a></li>
-
-<li><a href="referencias.html" class="text-white text-decoration-none">Referências</a></li>
-
-</ul>
-
-</div>
-
-<div class="col-lg-3">
-
-<h5>
-
-Contato
-
-</h5>
-
-<p>
+<small>
 
 Programa de Pós-Graduação em Educação em Ciências e Matemática
 
-</p>
-
-</div>
-
-</div>
-
-<hr>
-
-<div class="text-center">
-
-<p class="mb-0">
-
-© 2026 • Produto Educacional • História da Matemática e Desenvolvimento do Raciocínio Matemático
-
-</p>
-
-</div>
-
-</div>
+</small>
 
 </footer>
 
-<!-- =====================================================
-SCRIPTS
-====================================================== -->
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-
-function corrigirQuiz(){
-
-let pontos=0;
-
-if(document.querySelector('input[name="q1"]:checked')?.value=="b")
-pontos++;
-
-if(document.querySelector('input[name="q2"]:checked')?.value=="a")
-pontos++;
-
-let resultado=document.getElementById("resultadoQuiz");
-
-resultado.classList.remove("d-none");
-
-if(pontos==2){
-
-resultado.className="alert alert-success mt-4";
-
-resultado.innerHTML="<strong>Parabéns!</strong> Você respondeu corretamente às duas questões.";
-
-}
-
-else if(pontos==1){
-
-resultado.className="alert alert-warning mt-4";
-
-resultado.innerHTML="Você acertou 1 questão. Revise os conceitos e tente novamente.";
-
-}
-
-else{
-
-resultado.className="alert alert-danger mt-4";
-
-resultado.innerHTML="Nenhuma resposta correta. Releia os conceitos apresentados nesta página.";
-
-}
-
-}
-
-</script>
 
 </body>
 
